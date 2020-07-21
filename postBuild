@@ -4,4 +4,10 @@ set -x
 
 export GPT_BIN=$PREFIX/snap/bin/gpt
 
+$PREFIX/snap/bin/snap --nosplash --nogui --modules --update org.esa.s3tbx.s3tbx.rad2refl
+
+( cmdpid=$BASHPID; (sleep 30; kill $cmdpid) & exec $PREFIX/snap/bin/snap --nosplash --nogui --modules --list --refresh )
+
+
+
 exit 0

@@ -7,4 +7,4 @@ catalog:
             title: Sentinel-3 SLSTR Level 2 (SL_2_LST____)
             description: Sentinel-3 SLSTR Level 2 (SL_2_LST____) catalogue reference
             entries:
-                - https://catalog.terradue.com/sentinel3/search?uid=S3A_SL_2_LST____20190106T071010_20190106T085110_20190107T173746_6059_040_049______LN2_O_NT_003
+                - https://catalog.terradue.com/sentinel3/search?uid=S3A_SL_2_LST____20200422T063257_20200422T081356_20200423T193710_6059_057_234______LN2_O_NT_004
